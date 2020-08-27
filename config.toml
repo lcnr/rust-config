@@ -215,7 +215,7 @@
 
 # Run the build with low priority, by setting the process group's "nice" value
 # to +10 on Unix platforms, and by using a "low priority" job object on Windows.
-#low-priority = false
+low-priority = true
 
 # Arguments passed to the `./configure` script, used during distcheck. You
 # probably won't fill this in but rather it's filled in by the `./configure`
@@ -318,10 +318,10 @@ debug-assertions=true
 # Can be overriden for specific subsets of Rust code (rustc, std or tools).
 # Debuginfo for tests run with compiletest is not controlled by this option
 # and needs to be enabled separately with `debuginfo-level-tests`.
-#debuginfo-level = if debug { 2 } else { 0 }
+debuginfo-level = 1
 
 # Debuginfo level for the compiler.
-debuginfo-level-rustc = 1
+# debuginfo-level-rustc = 1
 
 # Debuginfo level for the standard library.
 #debuginfo-level-std = debuginfo-level
