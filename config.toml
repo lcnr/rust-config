@@ -551,3 +551,5 @@ llvm-config = "/bin/llvm-config"
 
 # Whether to allow failures when building tools
 #missing-tools = false
+
+changelog-seen = 1
