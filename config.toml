@@ -8,6 +8,7 @@
 # `config.toml` in the current directory of a build for build configuration, but
 # a custom configuration file can also be specified with `--config` to the build
 # system.
+changelog-seen = 1
 
 # =============================================================================
 # Tweaking how LLVM is compiled
@@ -552,4 +553,3 @@ llvm-config = "/bin/llvm-config"
 # Whether to allow failures when building tools
 #missing-tools = false
 
-changelog-seen = 1
