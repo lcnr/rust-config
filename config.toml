@@ -8,7 +8,7 @@
 # `config.toml` in the current directory of a build for build configuration, but
 # a custom configuration file can also be specified with `--config` to the build
 # system.
-changelog-seen = 1
+changelog-seen = 2
 
 # =============================================================================
 # Tweaking how LLVM is compiled
@@ -414,7 +414,7 @@ incremental = true
 #lldb = false
 
 # Whether to deny warnings in crates
-#deny-warnings = true
+deny-warnings = false
 
 # Print backtrace on internal compiler errors during bootstrap
 #backtrace-on-ice = false
